@@ -9,5 +9,5 @@ This project helps us understand how AI embeddings work by translating text data
 *   `numpy`: To fuse the text vectors and normalized prices together.
 
 **How to Run:**
-1. Install dependencies: `pip install sentence-transformers scikit-learn numpy`
+1. Install dependencies: `pip install -r requirements.txt`
 2. Run the script: `python cluster_logs.py`

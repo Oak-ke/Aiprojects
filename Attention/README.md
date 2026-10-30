@@ -19,23 +19,20 @@ This model classifies M-PESA transaction messages as **Successful** or **Failed*
 ## Installation
 
 ```bash
-pip install torch
+pip install -r requirements.txt
+```
 
 ## How to Run
 
-1. Save the code as mpesa_sentiment.py
-2. Run the script
-
 ```bash
-python mpesa_sentiment.py
+python MPESASentimentAttention.py
+```
 
-3. Expected Output
+## Expected Output
+
 The script will:
 
-Train on sample M-PESA messages
-
-Show training progress (loss and accuracy)
-
-Test on new messages with confidence scores
-
-Display attention visualization showing important words
+- Train on sample M-PESA messages
+- Show training progress (loss and accuracy)
+- Test on new messages with confidence scores
+- Display an attention visualization showing which words drove each decision

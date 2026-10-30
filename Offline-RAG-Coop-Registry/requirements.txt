@@ -1,0 +1,8 @@
+pandas
+langchain-text-splitters
+langchain-huggingface
+langchain-chroma
+torch
+accelerate
+transformers
+sentence-transformers

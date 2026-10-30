@@ -7,17 +7,22 @@ A lightweight, local Retrieval-Augmented Generation (RAG) pipeline designed for 
 ## Prerequisites & Installation
 
 1. Create and activate a Python virtual environment:
+
    ```bash
    python -m venv venv
    # Windows:
    venv\Scripts\activate
    # macOS/Linux:
    source venv/bin/activate
-Install the required local dependencies:
+   ```
 
-Bash
-pip install pandas langchain-text-splitters langchain-huggingface langchain-chroma torch accelerate transformers sentence-transformers
-How the Code Works
+2. Install the local dependencies:
+
+   ```bash
+   pip install -r requirements.txt
+   ```
+
+## How the Code Works
 The script (app.py) executes five core stages entirely on your local machine:
 
 1. Dataset Generation (Mock Kaggle Data)

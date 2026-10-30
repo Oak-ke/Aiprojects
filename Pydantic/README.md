@@ -17,7 +17,7 @@ By passing the `MicroLoanExtraction` schema to the API:
 * **Language:** Python
 * **Validation:** Pydantic (`BaseModel`, `Field`)
 * **Orchestration:** LangChain (`langchain-google-genai`)
-* **Inference:** Google Gemini 1.5 Flash (via API)
+* **Inference:** Google Gemini Flash (`gemini-flash-latest`, via API)
 
 ## Usage
 

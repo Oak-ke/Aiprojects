@@ -1,0 +1,17 @@
+# secrets
+.env
+
+# virtualenv
+venv/
+.venv/
+
+# vector store (regenerated on ingest)
+chroma/
+
+# python
+__pycache__/
+*.pyc
+
+# OS
+Thumbs.db
+.DS_Store
